@@ -15,8 +15,8 @@ import java.util.Properties;
 
 public class BulkEmailSender {
     public static void main(String[] args) {
-        final String senderEmail = "iamakshayr98@gmail.com"; // Your Gmail ID
-        final String senderPassword = "hdwz qkxv nvbt srpm"; // Your App Password (not normal password)
+        final String senderEmail = "your-email"; // Your Gmail ID
+        final String senderPassword = "password"; // Your App Password (not normal password)
 
         String filePath = "src/main/resources/emails.txt"; // Path to emails.txt
         String resumePath = "src/main/resources/resume.pdf"; // Path to resume
